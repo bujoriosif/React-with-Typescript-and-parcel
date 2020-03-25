@@ -1,0 +1,35 @@
+{
+  "name": "react-typescript-parcel",
+  "version": "1.0.0",
+  "description": "Starting boilerplate for creating a React app with typeScript and Parcel",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bujoriosif/React-with-Typescript-and-parcel.git"
+  },
+  "author": "Iosif Bujor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bujoriosif/React-with-Typescript-and-parcel/issues"
+  },
+  "homepage": "https://github.com/bujoriosif/React-with-Typescript-and-parcel#readme",
+  "dependencies": {
+    "@types/react": "^16.9.25",
+    "@types/react-dom": "^16.9.5",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/preset-typescript": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "typescript": "^3.8.3"
+  }
+}
